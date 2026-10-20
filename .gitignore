@@ -1,0 +1,24 @@
+# Runtime data and credentials do not belong in the source repository.
+*.pem
+*.key
+*.p12
+*.pfx
+*.credentials
+cloudflare-zones.json
+.env
+.env.*
+acme/
+certs/
+*.log
+*.bak
+
+# Release assets are attached to GitHub Releases.
+*.tar.gz
+*.sha256
+
+# Local editor and OS files.
+.idea/
+.vscode/
+__pycache__/
+.DS_Store
+Thumbs.db
